@@ -1,0 +1,8 @@
+"*.pyc" 
+"__pycache__/" 
+"*.log" 
+"*.csv" 
+"data/" 
+"*.h5" 
+"*.db" 
+"venv/" 
