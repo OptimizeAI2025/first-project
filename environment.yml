@@ -1,11 +1,17 @@
-"name: data-science-project" 
-"channels:" 
-"  - defaults" 
-"dependencies:" 
-"  - python=3.9" 
-"  - pandas" 
-"  - numpy" 
-"  - scikit-learn" 
-"  - jupyter" 
-"  - matplotlib" 
-"  - seaborn" 
+name: first-project-env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - seaborn
+  - pip
+  - pytest
+  - pip:
+      - git+https://github.com/OptimizeAI2025/OptimizeAI2025-libraries.git#subdirectory=my-awesome-library
+      - git+https://github.com/OptimizeAI2025/OptimizeAI2025-libraries.git#subdirectory=pdf-processing
+
